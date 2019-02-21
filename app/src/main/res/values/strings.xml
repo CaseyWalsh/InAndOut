@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">In And Out</string>
+    <string name="place_an_order">Place an Order</string>
+    <string name="double_double">Double Double $3.60</string>
+    <string name="cheeseburger">Cheeseburger $2.15</string>
+    <string name="french_fries">French Fries $1.65</string>
+    <string name="shakes">Shakes $2.20</string>
+    <string name="fountain_drinks">Fountain Drinks (pick size)</string>
+    <string name="small">Small $1.45</string>
+    <string name="medium">Medium $1.55</string>
+    <string name="large">Large $1.75</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_total">Order Total </string>
+    <string name="items_ordered">Items Ordered: </string>
+    <string name="subtotal">Subtotal: </string>
+    <string name="tax">Tax (8%): </string>
+    <string name="start_new_order">Start New Order</string>
+
+    <string name="ada_app_name">Heading: "In And Out"</string>
+    <string name="ada_place_an_order">Label: "Place an Order"</string>
+    <string name="ada_double_double">Label: "Double Double $3.60"</string>
+    <string name="ada_cheeseburger">Label: "Cheeseburger $2.15"</string>
+    <string name="ada_french_fries">Label: "French Fries $1.65"</string>
+    <string name="ada_shakes">Label: "Shakes $2.20"</string>
+    <string name="ada_fountain_drinks">Subheading: "Fountain Drinks (pick size)"</string>
+    <string name="ada_small">Label: "Small $1.45"</string>
+    <string name="ada_medium">Label: "Medium $1.55"</string>
+    <string name="ada_large">Label: "Large $1.75"</string>
+    <string name="ada_order_total">Label: "Order total amount"</string>
+    <string name="ada_items_ordered">Label: "Number of items ordered"</string>
+    <string name="ada_order_subtotal">Label: "Order subtotal amount"</string>
+    <string name="ada_order_tax">Label: "Order tax amount"</string>
+
+    <string name="ada_place_order_button">Buton: "Place Order"</string>
+    <string name="ada_number_of_double_doubles">Number Entry: "Double Doubles"</string>
+    <string name="ada_number_of_cheeseburgers">Number Entry: "Cheeseburgers"</string>
+    <string name="ada_number_of_french_fries">Number Entry: "French Fries"</string>
+    <string name="ada_number_of_shakess">Number Entry: "Shakes"</string>
+    <string name="ada_number_of_small_drinks">Number Entry: "Small Drinks"</string>
+    <string name="ada_number_of_medium_drinks">Number Entry: "Medium Drinks"</string>
+    <string name="ada_number_of_large_drinks">Number Entry: "Large Drinks"</string>
+    <string name="ada_new_order_button">Buton: "Start New Order"</string>
+</resources>

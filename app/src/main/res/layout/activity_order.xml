@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_background"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/ada_place_an_order"
+        android:text="@string/place_an_order"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_double_double"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/double_double" />
+
+            <EditText
+                android:id="@+id/doubleDoubleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_double_doubles"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_cheeseburger"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/cheeseburger" />
+
+            <EditText
+                android:id="@+id/cheesesburgerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_cheeseburgers"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_french_fries"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/french_fries" />
+
+            <EditText
+                android:id="@+id/frenchFriesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_french_fries"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_shakes"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/shakes" />
+
+            <EditText
+                android:id="@+id/shakesEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_shakess"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_fountain_drinks"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/fountain_drinks" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_small"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/small" />
+
+            <EditText
+                android:id="@+id/smallEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_small_drinks"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_medium"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/medium" />
+
+            <EditText
+                android:id="@+id/mediumEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_medium_drinks"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_large"
+                android:gravity="end"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/large" />
+
+            <EditText
+                android:id="@+id/largeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:contentDescription="@string/ada_number_of_large_drinks"
+                android:ems="4"
+                android:inputType="number" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/placeOrderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/ada_place_order_button"
+        android:onClick="onClickPlaceOrder"
+        android:text="@string/place_order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+</android.support.constraint.ConstraintLayout>
